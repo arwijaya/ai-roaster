@@ -140,6 +140,7 @@ export default function Home() {
               onChange={handleFileInputChange}
               disabled={isLoading}
               className="hidden"
+              aria-label="Upload foto"
             />
 
             {!selectedImage ? (
