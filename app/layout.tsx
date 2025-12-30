@@ -9,8 +9,14 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "AI Roaster 🔥",
-  description: "Upload foto dan biarkan AI menghina pilihan hidupmu dengan brutal",
+  title: "AI Roaster 💀 - Cek Seberapa Hancur Seleramu",
+  description: "Berani upload fotomu? Biarkan AI menilai (dan menghina) seleramu dengan jujur dan pedas. Siapkan mental sebelum klik!",
+  openGraph: {
+    title: "AI Roaster 💀 - Berani Coba?",
+    description: "Cek seberapa hancur seleramu menurut AI. Awas baper!",
+    type: "website",
+    locale: "id_ID",
+  },
 };
 
 export default function RootLayout({
